@@ -17,6 +17,7 @@ namespace BlazorApp1.Pages
         public ErrorModel(ILogger<ErrorModel> logger)
         {
             _logger = logger;
+            Console.WriteLine(_logger);
         }
 
         public void OnGet()
