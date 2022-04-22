@@ -21,6 +21,7 @@ namespace BlazorApp1.Pages
 
         public void OnGet()
         {
+            // hello my name is sarika
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
         }
     }
